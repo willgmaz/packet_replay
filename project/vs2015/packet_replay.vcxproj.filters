@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\protocols">
+      <UniqueIdentifier>{07e02a89-70c6-4f4e-95ff-9e17b766721b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\protocols\layer2">
+      <UniqueIdentifier>{03fec58e-bcd0-4330-81e1-0a4fd5a6e14a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\windows">
+      <UniqueIdentifier>{d4bd0b71-2250-4420-96f8-18e7f0a4d757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\endian">
+      <UniqueIdentifier>{fa754fd3-59a3-4cd3-9845-ee93ec921a97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\crypto">
+      <UniqueIdentifier>{073a9ded-ec5b-4f29-8255-3bf1a25e0909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\cmd_actions">
+      <UniqueIdentifier>{c255663d-98fc-4082-ae1f-bee0772f128c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\protocols\layer3">
+      <UniqueIdentifier>{849d089e-c06d-4f16-be8a-bcc5e18a6eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\protocols\layer4">
+      <UniqueIdentifier>{c3d2c01e-ae36-4ba2-88e1-70624dabcbce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pkt_actions">
+      <UniqueIdentifier>{472a201d-1df8-410e-a6ac-7bd83c12679b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\basic_dump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\traffic_replay.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\windows\windows.hpp">
+      <Filter>Header Files\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\crypto\checksum.hpp">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\endian\endianness.hpp">
+      <Filter>Header Files\endian</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cmd_actions\offline_pcaps_action_stats_t.hpp">
+      <Filter>Header Files\cmd_actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cmd_actions\offline_pcaps_action_replay_folder_t.hpp">
+      <Filter>Header Files\cmd_actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cmd_actions\pcap_devs_action_getif_t.hpp">
+      <Filter>Header Files\cmd_actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\protocols\layer2\ethernet2.hpp">
+      <Filter>Header Files\protocols\layer2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\protocols\layer2\common.hpp">
+      <Filter>Header Files\protocols\layer2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\protocols\layer3\common.hpp">
+      <Filter>Header Files\protocols\layer3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\protocols\layer3\ipv4.hpp">
+      <Filter>Header Files\protocols\layer3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\protocols\layer4\tcp.hpp">
+      <Filter>Header Files\protocols\layer4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\protocols\layer4\common.hpp">
+      <Filter>Header Files\protocols\layer4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cmd_actions\pcap_devs_action_getif_by_number_t.hpp">
+      <Filter>Header Files\cmd_actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\protocols\layer4\flows.hpp">
+      <Filter>Header Files\protocols\layer4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\protocols\layer4\udp.hpp">
+      <Filter>Header Files\protocols\layer4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\protocols\layer3\ethernet_ipv4_fragmenter.hpp">
+      <Filter>Header Files\protocols\layer3</Filter>
+    </ClInclude>
+    <ClInclude Include="udp_payload.hpp">
+      <Filter>Header Files\pkt_actions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="todo.txt" />
+    <Text Include="protocols.txt" />
+    <Text Include="commands.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>-r C:\Users\william\Desktop\tools\rare_pcaps\jumbos\10.pcap -s \Device\NPF_{B2294E17-3BC0-46EB-8DD0-752FC0E6F9B0} -d \Device\NPF_{6217A1B3-D16B-4A7F-90A5-53B30A103B04}</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ShowAllFiles>false</ShowAllFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>-r E:\ztest_pcap\1.pcap -si \Device\NPF_{1E335FE8-5DD4-4D04-9D1D-D2304A55B86D} -di \Device\NPF_{95B765BD-C38C-4FF5-8694-EAAA786CA479} -sip 189.162.1.1 -dip 189.162.1.2</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,16 @@
+- Support Jumbo packets
+  http://dpdk.org/doc: supported here
+  https://github.com/simh/simh: no sure here?
+  https://fossies.org/linux/tcpreplay/src/common/sendpacket.c: supported here?
+
+- Support port change:
+	- Statefull identification. TCP Flow identification and port modification.
+	- Or just:	
+		- TCP: identify SYNC request 
+		  get: source,sport,destination,dport
+		  compare subsequent connection with that values and change the corresponding sport.
+		  detect confliting port reuse where:
+			another sync with the same sport going to the same destination(dip and dport).
+		  reset state for new pcaps.
+		- UDP ?
+		
